@@ -1,0 +1,273 @@
+h1, h2, h3, h4, h5, nav {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+
+h1 {
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: .78px;
+    line-height: 33px;
+    padding: 0 0 20px 0;
+    margin: -12px 0 5px 0;
+}
+
+
+@media (min-width: 375px){
+    h1 {
+        font-size: 40px;
+        letter-spacing: .85px;
+        line-height: 47px;
+    }
+}
+
+@media (min-width: 768px){
+    h1 {
+        
+        font-size: 67px;
+        letter-spacing: 1.43px;
+        line-height: 78.3px;
+    }
+}
+
+@media (min-width: 1366px){
+    h1 {
+       
+        font-size: 75px;
+        letter-spacing: 1.6px;
+        line-height: 87px;
+    }
+}
+
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .78px;
+    line-height: 33px;
+
+}
+
+
+@media (min-width: 375px){
+    h2 {
+        font-size: 30px;
+        letter-spacing: .85px;
+        line-height: 47px;
+    }
+}
+
+@media (min-width: 768px){
+    h2 {
+        
+        font-size: 47px;
+        letter-spacing: 1.43px;
+        line-height: 78.3px;
+    }
+}
+
+@media (min-width: 1366px){
+    h2 {
+       
+        font-size: 55px;
+        letter-spacing: 1.6px;
+        line-height: 87px;
+    }
+}
+
+
+p {
+    font-size: 24px;
+}
+
+.container {
+    padding: 30px 50px 30px 50px;
+}
+
+
+.nav-wrap {
+    padding: 40px 40px 10px 40px;
+
+}
+
+.nav {
+    float: right;
+
+}
+
+.nav li {
+    display: inline-block;
+    color: white;
+   /* padding: 0 0 0 2rem;*/
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav li a:hover,
+.nav li a:active,
+.nav li a:focus {
+    color: #333333;
+}
+
+
+.btn {
+    margin: 25px 0 20px 0;
+    padding: 15px 25px;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    display: inline-block;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+    background-color: white;
+    color: #333333;
+/*  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;*/
+}
+.btn:hover,
+.btn:focus {
+    background-color: white;
+    color: #333333;
+}
+.btn:active,
+.btn.active {
+    background-color: white;
+    color: #333333;
+    -webkit-box-shadow: 0;
+          box-shadow: 0;
+}
+
+
+@media (min-width: 768px){
+    .container {
+        padding: 50px 100px 50px 100px;
+    }
+}
+
+
+.home-header-text {
+    color: white;
+    display: inline-block;
+    /*margin: 30% 0 0 0;*/
+    /*top: 25%;*/
+    position: absolute;
+    /*bottom: 25%;*/
+    /*height: 50%*/;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+}
+
+
+@media (min-width: 768px){
+    .home-header-text {
+        border-left: solid 1px white;
+        padding-left: 40px;
+    }
+}
+
+
+.home-header-text p {
+    color: white;
+    font-size: 24px;
+    line-height: 2.5rem;
+
+}
+
+.home-header-bg {
+    display: block;
+}
+
+.bg-video-wrap {
+    z-index: -100;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+/*    top: 40vh;
+    left: 50vw;
+    transform: translate(-50vw, -80vh);*/
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+
+}
+
+.bg-video {
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 20vw;
+    /*margin-top: 1vh;*/
+    margin-bottom: 6%;
+}
+
+.bg-overlay {
+    z-index: -50;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+/*    top: 40vh;
+    left: 50vw;
+    transform: translate(-50vw, -80vh);*/
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: rgba(0,0,0,0.6);
+}
+
+.blurb-wrap {
+/*    top: 70%;
+    height: 50%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #FFD204;*/
+
+    height: 400px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFD204;
+    margin: 50vh -25px 0 -25px;
+
+}
+
+.home-speaker-wrap {
+    background-color: white;
+    height: 400px;
+    position: relative;
+    margin: 0 -25px 0 -25px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
