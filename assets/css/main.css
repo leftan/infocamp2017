@@ -82,7 +82,22 @@ h2 {
 
 
 p {
-    font-size: 24px;
+    font-size: 2rem;
+}
+
+td {
+    font-size: 2rem;
+ }
+
+.table tbody tr td {
+     border-top: 0; 
+     padding-left: 3rem;
+     padding-right: 3rem;
+
+}
+
+tr .text-left {
+    border-left: solid 1px white;
 }
 
 .container {
@@ -268,6 +283,16 @@ p {
     right: 0;
 }
 
+.home-agenda-wrap {
+    background-color: #22B0AC;
+    height: 100%;
+    position: relative;
+    margin: 0 -25px 0 -25px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
 
 
 
