@@ -354,7 +354,8 @@ tr .text-left {
     left: 0;
     right: 0;
     background-color: #FFD204;
-    margin: 50vh -25px 0 -25px;
+    padding-bottom: 5rem;
+    margin: 50vh -25px -25px;
 
 }
 
