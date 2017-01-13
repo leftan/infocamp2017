@@ -17,6 +17,11 @@ h1 {
     margin: -12px 0 5px 0;
 }
 
+h3 {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+
 
 @media (min-width: 375px){
     h1 {
@@ -81,9 +86,10 @@ h2 {
 }
 
 
-p {
+p, li {
     font-size: 2rem;
 }
+
 
 td {
     font-size: 2rem;
@@ -118,6 +124,8 @@ tr .text-left {
 .nav li {
     display: inline-block;
     color: white;
+    font-size: 14px;
+
    /* padding: 0 0 0 2rem;*/
 }
 
@@ -263,7 +271,7 @@ tr .text-left {
     width: 100%;
     background-color: #FFD204;*/
 
-    height: 400px;
+    height: 100%;
     position: relative;
     bottom: 0;
     left: 0;
@@ -275,7 +283,7 @@ tr .text-left {
 
 .home-speaker-wrap {
     background-color: white;
-    height: 400px;
+    height: 100%;
     position: relative;
     margin: 0 -25px 0 -25px;
     bottom: 0;
@@ -294,5 +302,20 @@ tr .text-left {
     color: white;
 }
 
+.speaker-headshot {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.speaker-headshot p {
+    text-align: center;
+}
+
+
+.speaker-headshot img {
+    height: 150px;
+    width: auto;
+
+}
 
 
