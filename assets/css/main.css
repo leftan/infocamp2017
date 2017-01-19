@@ -94,7 +94,8 @@ h1 {
 
 h3 {
     font-size: 1.8rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
+
 }
 
 
@@ -181,6 +182,10 @@ tr .text-left {
     border-left: solid 1px white;
 }
 
+a {
+    color: white;
+    /*font-weight: 700;*/
+}
 
 .btn {
     margin: 25px 0 20px 0;
@@ -261,6 +266,23 @@ tr .text-left {
     width: 70%;
 }
 
+
+
+.faq-text {
+    color: white;
+    display: inline-block;
+    /*margin: 30% 0 0 0;*/
+    /*top: 25%;*/
+    position: absolute;
+    /*bottom: 25%;*/
+    /*height: 50%*/;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    padding-bottom: 15%;
+}
+
+
 .logo {
     width: 40vw;
     margin-bottom: 6%;
@@ -274,6 +296,10 @@ tr .text-left {
 
     .home-header-text {
         border-left: solid 1px white;
+        padding-left: 40px;
+    }
+
+    .faq-header-text {
         padding-left: 40px;
     }
 
@@ -291,6 +317,13 @@ tr .text-left {
     color: white;
     font-size: 24px;
     line-height: 2.5rem;
+
+}
+
+.faq-text p {
+    color: white;
+    /*font-size: 24px;
+    line-height: 2.5rem;*/
 
 }
 
@@ -338,6 +371,23 @@ tr .text-left {
     background: rgba(0,0,0,0.6);
 }
 
+.faq-bg {
+    z-index: -50;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+/*    top: 40vh;
+    left: 50vw;
+    transform: translate(-50vw, -80vh);*/
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: #22B0AC; 
+
+}
+
 .blurb-wrap {
 /*    top: 70%;
     height: 50%;
@@ -356,6 +406,19 @@ tr .text-left {
     background-color: #FFD204;
     padding-bottom: 5rem;
     margin: 50vh -25px -25px;
+
+}
+
+.faq-wrap {
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFD204;
+    padding-bottom: 5rem;
+    margin: 0 -25px -25px 0;
+    z-index: -10
 
 }
 
