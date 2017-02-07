@@ -22,8 +22,7 @@ body {
 .navbar-default {
     background: none; 
     border: none; 
-/*    margin-top: 2rem;
-    margin-right: 1rem;*/
+
     color: white
 }
 
@@ -105,7 +104,8 @@ body {
 
 .soc {
     overflow:hidden;
-    margin:0; padding:0;
+    margin: 0 0 1rem 0; 
+    padding:0;
     list-style:none;
 }
 
@@ -153,7 +153,7 @@ body {
     width: 48px;
     height: 48px;
     line-height: 52px;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .soc-icon-last{
@@ -288,8 +288,14 @@ td {
 
 }
 
+tr .text-right {
+    width: 40%;
+}
+
+
 tr .text-left {
     border-left: solid 1px white;
+    width: 60%;
 }
 
 a {
@@ -374,17 +380,6 @@ a {
 
 
 
-.faq-text {
-    color: white;
-    display: inline-block;
-
-    position: absolute;
-
-    left: 15%;
-    right: 15%;
-    width: 70%;
-    padding-bottom: 15%;
-}
 
 
 .logo {
@@ -424,12 +419,6 @@ a {
 
 }
 
-.faq-text p {
-    color: white;
-    /*font-size: 24px;
-    line-height: 2.5rem;*/
-
-}
 
 .home-header-bg {
     display: block;
@@ -475,22 +464,6 @@ a {
     background: rgba(0,0,0,0.6);
 }
 
-.faq-bg {
-    z-index: -50;
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
-/*    top: 40vh;
-    left: 50vw;
-    transform: translate(-50vw, -80vh);*/
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    background: #22B0AC; 
-
-}
 
 .blurb-wrap {
 /*    top: 70%;
@@ -513,18 +486,6 @@ a {
 
 }
 
-.faq-wrap {
-    height: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #FFD204;
-    padding-bottom: 5rem;
-    margin: 0 -25px -25px 0;
-    z-index: -10
-
-}
 
 .home-speaker-wrap {
     background-color: white;
@@ -547,16 +508,7 @@ a {
     color: white;
 }
 
-.footer-wrap {
-    background-color: #333333;
-    height: 100%;
-    position: relative;
-    margin: 0 -25px 0 -25px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: white;
-}
+
 
 .speaker-headshot {
     text-align: center;
@@ -576,11 +528,136 @@ a {
 }
 
 
+/* -------------------------- FAQ ------------------------*/
+
+
+.faq-wrap {
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFD204;
+    padding-bottom: 5rem;
+    margin: 0 -25px -25px 0;
+    z-index: -10
+
+}
+
+
+.faq-bg {
+    z-index: -50;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: #22B0AC; 
+
+}
+
+
+.faq-text {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    padding-bottom: 15%;
+}
+
+
+.faq-text p {
+    color: white;
+
+}
+
+.faq-text a{
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid rgba(255, 210, 4, 1);
+}
+
+.faq-text a:hover, .faq-text a:active, .faq-text a:focus{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid rgba(255, 210, 4, 0.8);
+}
+
+/* -------------------------- sponsor ------------------------*/
+
+.home-sponsor-wrap {
+    background-color: #F0F0F0;
+    height: 100%;
+    position: relative;
+    margin: -25px 0 -25px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+.sponsor-logo img{
+    height: 120px;
+    width: auto;
+    margin: 2rem 1rem 5rem 1rem;
+    opacity: 1;  
+}
+
+.sponsor-logo img:hover, .sponsor-logo img:active, .sponsor-logo img:active{
+    opacity: 0.6;  
+}
+
+
 /* -------------------------- footer ------------------------*/
 
 .footer-nav {
     list-style: none;
     margin-left: -40px;
+
 }
 
+.footer-wrap {
+    background-color: #333333;
+    height: 100%;
+    position: relative;
+    margin: 0 -25px 0 -25px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+
+}
+
+.footer-wrap li, .footer-wrap p {
+    font-size: 1.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.footer-nav li {
+    display: inline-block;
+
+}
+
+.footer-nav li a{
+    padding: 0.8rem;
+}
+
+.footer-nav li a:hover, .footer-nav li a:active, .footer-nav li a:focus{
+    text-decoration: none;
+    background-color: white;
+    color: #333333;
+
+}
+
+.copyright {
+    margin-top: 1rem;
+}
 
