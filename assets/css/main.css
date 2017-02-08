@@ -490,6 +490,18 @@ a {
 }
 
 
+.blurb-wrap p a{
+    padding-bottom: 0.2rem;
+    color:#333;
+    border-bottom: 2px solid rgba(34, 176, 172, 1);
+}
+
+.blurb-wrap p a:hover, .blurb-wrap p a:active, .blurb-wrap p a:focus{
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid rgba(34, 176, 172, 0.4);
+}
+
 .home-speaker-wrap {
     background-color: white;
     height: 100%;
